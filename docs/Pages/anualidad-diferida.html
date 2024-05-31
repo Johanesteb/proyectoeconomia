@@ -12,19 +12,28 @@
 </head>
 
 <body class="bg">
-    <div class="container py-4 px-3 mx-auto text-center text-light">
+    <div class="container py-4 px-3 mx-auto text-center text-light" style="width: 50%; margin: auto;">
         <img src="https://i2.wp.com/comunidad.udistrital.edu.co/forofuturotechsociales/files/2018/07/LOGO_UD_ORG.jpg?fit=500%2C500&ssl=1"
             alt="UD Logo" class="position-absolute top-0 start-0 mt-3 ms-3"
             style="width: 10%; height: auto; z-index: 1;">
         <div class="card-title text-dark" style="text-align: center;">
             <h1>ANUALIDAD DIFERIDA</h1>
         </div>
+
+        <button onclick="window.location.href='../index.html';">
+            <svg height="16" width="16" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024">
+              <path d="M874.690416 495.52477c0 11.2973-9.168824 20.466124-20.466124 20.466124l-604.773963 0 
+              188.083679 188.083679c7.992021 7.992021 7.992021 20.947078 0 28.939099-4.001127 3.990894-9.240455 
+              5.996574-14.46955 5.996574-5.239328 0-10.478655-1.995447-14.479783-5.996574l-223.00912-223.00912c-3.837398-3.837398-5.996574-9.046027-5.996574-14.46955 0-5.433756 2.159176-10.632151 5.996574-14.46955l223.019353-223.029586c7.992021-7.992021 20.957311-7.992021 28.949332 0 7.992021 8.002254 7.992021 20.957311 0 28.949332l-188.073446 188.073446 604.753497 0C865.521592 475.058646 874.690416 484.217237 874.690416 495.52477z"></path>
+            </svg>
+            <span>Back</span>
+          </button>
+
         <div class="card-body">
             <div class="col-12 d-flex">
                 <div class="col-12 trxt-center">
                     <div class="card-body">
                         <label> Valor presente</label><br /><br />
-                        <img width="350" height="150" style="size:20px;" src="../resources/img/diferida.jpeg">
                         <form id="valor-presente" style="width: 60%; margin-left: 20%;">
                             <label class="mt-2">Ingrese el numero del valor de la cuota</label>
                             <input id="valorcuota" class="form-control" type="number" pattern="[0-9]+" step="0.001" />
@@ -60,7 +69,6 @@
                     </div>
                 </div>
             </div>
-            <a href="../index.html" class="btn btn-dark mt-5">volver al menu principal</a>
         </div>
     </div>
     <script type="module" src="../js/diferida.js"></script>
