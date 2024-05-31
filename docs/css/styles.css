@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2; /* Gris elegante */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    justify-content: center; /* Para justificar el contenido */
+}
+
+.card-title {
+    font-size: 1.5rem;
+    text-align: center; /* Para centrar el título */
+}
+
+.card-text {
+    font-size: 1rem;
+    text-align: justify; /* Para justificar el texto */
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.text-light {
+    color: #ffffff !important;
+}
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 51% !important;
+}
+.row {
+    width: 100%;
+}  
